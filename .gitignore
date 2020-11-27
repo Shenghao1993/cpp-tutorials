@@ -28,10 +28,10 @@
 
 # Executables
 *.exe
-*.out
 *.app
 *
 !*.*
+**/*.out
 
 
 # IDE
