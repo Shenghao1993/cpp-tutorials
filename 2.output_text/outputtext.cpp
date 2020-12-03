@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     // flush: output the text without creating a line feed (carriage return)
     // It doesn't go to a new line.
     cout << "Starting program ..." << flush;

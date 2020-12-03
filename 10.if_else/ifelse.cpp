@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     cout << "1.\tAdd new record." << endl;
     cout << "2.\tDelete record." << endl;
     cout << "3.\tView record." << endl;
@@ -13,21 +12,15 @@ int main()
 
     int value;
     cin >> value;
-    if (value < 3)
-    {
+    if (value < 3) {
         cout << "Insufficient privileges to use these menu options." << endl;
-    }
-    else
-    {
+    } else {
         cout << "Privilege level sufficient." << endl;
     }
 
-    if (value == 5)
-    {
+    if (value == 5) {
         cout << "Quitting ..." << endl;
-    }
-    else
-    {
+    } else {
         cout << "Not quitting." << endl;
     }
     return 0;

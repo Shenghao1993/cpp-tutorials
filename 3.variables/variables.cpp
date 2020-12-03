@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int numberCats = 5; // Camel casing
+int main() {
+    int numberCats = 5;  // Camel casing
     int numberDogs = 7;
     int numberAnimals = numberCats + numberDogs;
 

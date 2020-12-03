@@ -2,8 +2,7 @@
 #include <limits>
 using namespace std;
 
-int main()
-{
+int main() {
     int value = 54656;
     cout << value << endl;
 
@@ -16,10 +15,12 @@ int main()
     short int sValue = 23434;
     cout << sValue << endl;
 
-    cout << "Size of int: " << sizeof(int) << endl;             // 4 bytes. 4 x 8 bits
-    cout << "Size of short int: " << sizeof(short int) << endl; // 2 bytes. 2 x 8 bits
+    cout << "Size of int: " << sizeof(int) << endl;  // 4 bytes. 4 x 8 bits
+    cout << "Size of short int: " << sizeof(short int)
+         << endl;  // 2 bytes. 2 x 8 bits
 
-    unsigned int uValue = 2342343; // Only positive value is allowed. Larger value can be stored.
+    // Only positive value is allowed. Larger value can be stored.
+    unsigned int uValue = 2342343;
     cout << uValue << endl;
 
     return 0;

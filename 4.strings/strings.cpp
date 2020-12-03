@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     // int is a primitive type, string is an object
     string text1 = "Hello ";
     string text2 = "Fred";

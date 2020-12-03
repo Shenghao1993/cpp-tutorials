@@ -1,11 +1,10 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     float fValue = 76.4;
-    cout << "Size of float: " << sizeof(float) << endl; // 4 bytes
+    cout << "Size of float: " << sizeof(float) << endl;  // 4 bytes
     cout << fixed << fValue << endl;
     cout << scientific << fValue << endl;
 
@@ -19,6 +18,6 @@ int main()
 
     long double lValue = 123.45676543210;
     cout << setprecision(20) << fixed << lValue << endl;
-    cout << "Size of long double: " << sizeof(lValue) << endl; // 14 bytes
+    cout << "Size of long double: " << sizeof(lValue) << endl;  // 14 bytes
     return 0;
 }

@@ -1,21 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     string password = "hello";
     cout << "Enter your password > " << flush;
     string input;
     cin >> input;
     cout << "'" << input << "'" << endl;
 
-    if (input == password)
-    {
+    if (input == password) {
         cout << "Password accepted." << endl;
     }
 
-    if (input != password)
-    {
+    if (input != password) {
         cout << "Access denied." << endl;
     }
 
